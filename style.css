@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 4rem;
+}
+
+.listagem ul li{
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(185, 185, 185);
+    border-radius: 20px;
+}
+
+.listagem ul li:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: ease 0.5s;
+}
+
+.listagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.tarefa-botao{
+    padding: 10px 100px;
+    border-radius: 15px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(185, 185, 185);
+}
+
+.tarefa-botao::placeholder{
+    text-align: center;
+    color: rgb(185, 185, 185);
+}
+
+.submit-tarefa{
+    padding: 10px 100px;
+    margin-top: 20px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(185, 185, 185);
+}
